@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo" >Vamos contar</h1>
+    </header>
+    
+    <section class="section" >
+        <div class="divs" id="form" >
+            <p class="inicio">Início: <input type="number" name="txtIni" id="txtIni" ></p>
+            <p class="fim">Fim: <input type="number" name="txtFim" id="txtFim" ></p>
+            <p class="passo">Passo: <input type="number" name="txtPas" id="txtPas" ></p>
+            <button id="Verificador" onclick="contar()" >Contar</button>                  
+        </div>
+        <div class="divs" class="res" id="res" >
+            Preparando a contagem...
+             
+        </div>
+    </section>
+
+    <footer class="footer" >
+        <p class="txtfooter"> By Henrique Leão </p>
+    </footer>
+
+    <script src="./script.js" ></script>
+</body>
+</html>
